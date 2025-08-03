@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  font-family: cursive;
+}
+
+.cart-header img {
+  width: 30px;
+  height: auto;
+  
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 35rem;
+  padding: 80px 20px;
+  background-image: url("images/market.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:end;  
+  align-items: center;      
+  text-align: center;
+  font-size:30px;
+}
+
+.btn {
+  background: #fff;
+  color: #1c1d1e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.features {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 50px;
+  background: #fff;
+}
+
+.feature-box {
+  min-width: 300px;
+  background: grey;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex-shrink: 0; 
+
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+
+.contact {
+  padding: 40px 20px;
+  background: #f0f0f0;
+  text-align: center;
+
+  button {
+  background: black;
+  color: white;
+  padding: 10px 100px;
+  border-radius: 10px;
+  text-decoration: none;
+  }
+}
+
+.contact form input,
+.contact form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: gray;
+  color: white;
+}
+
+

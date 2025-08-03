@@ -1,0 +1,66 @@
+
+header {
+    background: rgb(48, 47, 47);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#aboutme {
+    img {
+    width: 130px;
+    float:inline-start;
+    border-radius: 50%;
+     margin-top: -30px;
+      }
+    p {
+    text-align:justify;
+    padding-left: 10rem;
+    padding-top: 20px;
+    }
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-spacing: 15px;
+}
+
+ td{
+  background: #f4f4f4;
+  margin: 5px 0;
+  text-align: center;
+  padding: 10px;
+  border-radius:8px;
+  
+}
+
+.project {
+    h3 {
+    padding-left: 25px;
+    }
+}
+
+#resume {
+    padding-left:50px;
+}
+
+#contact {
+    padding-left:50px;
+}
+
+footer {
+  background: rgb(48, 47, 47);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
